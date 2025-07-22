@@ -1,0 +1,157 @@
+
+/* Tabla de usuarios */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(211, 163, 32, 0.05);
+}
+
+th {
+    background-color: #2193b0;
+    color: white;
+    padding: 14px;
+    text-transform: uppercase;
+    
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+/* Acciones (botones) */
+td a {
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+td a:first-child {
+    background-color: #28a745; /* Editar */
+}
+
+td a:last-child {
+    background-color: #dc3545; /* Eliminar */
+}
+
+td a:hover {
+    opacity: 0.85;
+}
+
+/* Botón superior (agregar) */
+.acciones-superiores {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 18px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Botón de regresar */
+.btn-regresar {
+    background-color: #6c757d;
+    margin-top: 20px;
+}
+
+.btn-regresar:hover {
+    background-color: #5a6268;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Título centrado */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+/* Formulario centrado y estilizado */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Etiquetas y campos */
+label {
+    display: block;
+    margin-top: 12px;
+    color: #444;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Botón Guardar */
+input[type="submit"] {
+    background-color: #2193b0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #176d87;
+}
+
+/* Botón Cancelar/Regresar */
+.btn-regresar {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-regresar:hover {
+    background-color: #5a6268;
+}
+
+
